@@ -1,41 +1,33 @@
 @charset "UTF-8";
  
 /*reset css*/
-*{
+ {
     margin:0;
     adding:0;
 }
 
-/*640px以下*/
-@media screen and(min-width:640px){
-  body{
+body{
+    background-color:gray;
+}
+
+header{
+    padding:10px;
+    text-align:center;
     background-color:red;
-    font-family: 'Kosugi Maru', sans-serif;
-  }
 }
 
-/*640px以上980px以下*/
-@media screen and(min-width:641px)and(max-width:980px){
-  body{
+section{
+    padding:10px;
+    background-color:orange;
+}
+
+aside{
+    padding:10px;
     background-color:green;
-  }
 }
 
-/*981px以上*/
-@media screen and(min-width981px){
-  body{
+footer{
+    padding:10px;
     background-color:blue;
-  }
-}
-
-@media screen and(orientation:prtrat){
- body:after{
-  contet:"縦長";
- }
-}
-
-@media scren and(orientation:landscape){
- body:after{
-  content:"横長";
- }
+    text-align:center;
 }
