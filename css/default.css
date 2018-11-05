@@ -45,7 +45,25 @@ footer{
      clear:both;
  }
 }
-  
-  
-  
-  
+
+@media screen and(min-width:1025px){
+ #main{
+     max-width:1024px;
+     margin:auto;
+ }
+ section{
+     width:clac(70%-20px);
+     float:left;
+ }
+ #side{
+  width:clac(1024%-718px);
+  float:left;
+ }
+ aside{
+  width:clac(100%-20px);
+ }
+ #main:after{
+  content:"";
+  display:block;
+  clear:both;
+ }
