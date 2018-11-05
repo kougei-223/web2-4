@@ -1,4 +1,4 @@
-@charset "utf-8";
+@charset "UTF-8";
  
 /*reset css*/
 *{
@@ -25,4 +25,16 @@
   body{
     background-color:blue;
   }
+}
+
+@media screen and(orientation:prtrat){
+ body:after{
+  contet:"縦長";
+ }
+}
+
+@media scren and(orientation:landscape){
+ body:after{
+  content:"横長";
+ }
 }
